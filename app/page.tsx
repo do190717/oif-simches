@@ -20,7 +20,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-5"></div>
         <div className="relative max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            מודעות וזמנות מעוצבות
+            מודעות והזמנות מעוצבות
             <span className="block text-[#d4af37] mt-2">לכל אירוע ושמחה!</span>
           </h2>
           <p className="text-xl md:text-2xl mb-10 text-slate-200 max-w-3xl mx-auto leading-relaxed">
