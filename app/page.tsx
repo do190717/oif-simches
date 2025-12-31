@@ -75,13 +75,13 @@ export default function Home() {
             מגוון רחב של עיצובים מקצועיים, מעוצבים בקפידה על ידי מעצבים מובילים
           </p>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {/* Bar/Bat Mitzvah */}
             <div className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
               <div className="relative h-80 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#d4af37]/20 to-transparent z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1609168159878-baa6f5a49c80?w=800" 
+                  src="/תפילין.jpg"    
                   alt="בר/בת מצווה"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -107,7 +107,7 @@ export default function Home() {
               <div className="relative h-80 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-rose-200/30 to-transparent z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800" 
+                  src="/חתונה.jpeg" 
                   alt="חתונות"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -131,9 +131,9 @@ export default function Home() {
             {/* Synagogue Events */}
             <div className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
               <div className="relative h-80 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-800/20 to-transparent z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 to-transparent z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1609168159878-baa6f5a49c80?w=800" 
+                  src="/בית כנסת.jpg" 
                   alt="אירועי בית כנסת"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -145,9 +145,35 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <p className="text-slate-600 mb-4 font-assistant leading-relaxed">
-                  מודעות לקידוש, שלום זכור, הכנסת ס"ת - בעיצוב מכובד ומקצועי
+                  מודעות גבאים, הודעות, הכנסת ס"ת - בעיצוב מכובד ומקצועי
                 </p>
-                <button className="text-slate-700 font-bold hover:text-slate-900 transition-all font-rubik text-lg group-hover:translate-x-2 inline-flex items-center">
+                <button className="text-amber-800 font-bold hover:text-amber-900 transition-all font-rubik text-lg group-hover:translate-x-2 inline-flex items-center">
+                  <span>צפה בתבניות</span>
+                  <span className="mr-2">←</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Night Celebrations */}
+            <div className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
+              <div className="relative h-80 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 to-transparent z-10"></div>
+                <img 
+                  src="/שלום זכר.jpg" 
+                  alt="בשעה טובה"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-20"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-6 z-30">
+                  <h4 className="text-3xl font-black text-white mb-2 font-rubik drop-shadow-lg">בשעה טובה</h4>
+                  <p className="text-white/90 font-assistant text-sm">ואך נאכט, קידוש, שלום זכור</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-slate-600 mb-4 font-assistant leading-relaxed">
+                  מודעות מעוצבות לאירועי לילה - ואך נאכט, קידוש, שלום זכור ועוד
+                </p>
+                <button className="text-indigo-700 font-bold hover:text-indigo-800 transition-all font-rubik text-lg group-hover:translate-x-2 inline-flex items-center">
                   <span>צפה בתבניות</span>
                   <span className="mr-2">←</span>
                 </button>
